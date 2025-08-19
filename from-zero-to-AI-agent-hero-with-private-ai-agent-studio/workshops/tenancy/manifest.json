@@ -1,11 +1,5 @@
 {
   "workshoptitle": "From zero to AI Agents hero with Oracle Private AI Agent Studio",
-  "include": {"DB_credentials.txt":"lab2/files/DB_credentials.txt",
-              "OCI_credentials.txt":"lab2/files/OCI_credentials.txt",
-              "PROD_DB_credentials.txt":"lab4/files/PROD_DB_credentials.txt",
-              "WEB_credentials.txt":"lab4/files/WEB_credentials.txt",
-              "oracle-database-23ai-new-features-guide.pdf":"lab7/files/oracle-database-23ai-new-features-guide.pdf"
-  },
   "help": "livelabs-help-database_us@oracle.com",
   "tutorials": [
     {
