@@ -1,4 +1,4 @@
-# Create users, secure agents, and authorize agent users
+# Lab 3: Create users, secure agents, and authorize agent users
 
 ## Introduction
 
@@ -23,7 +23,7 @@ By the end of this lab, you will be able to:
 
 - An SSO provider and the necessary credentials (Client ID, Client Secret, Endpoint URLs, etc.) as required for OAuth integration.
 
-## Task 1. Register SSO credentials on Oracle Private AI Agent Studio
+## Task 1: Register SSO credentials on Oracle Private AI Agent Studio
 
 Open Oracle Private AI Agent Studio and log in. In the sidebar, click the **SSO** section.
 
@@ -44,7 +44,7 @@ Here, you can configure OAuth providers to enable Single Sign-On (SSO) for your 
 
 Click **Add Provider**. A success message will be displayed. You can confirm the service status, disable it, or delete it on this screen.
 
-## Task 2. Take a look at the User Management Dashboard
+## Task 2: Take a look at the User Management Dashboard
 
 In the sidebar, click the **User Management** section.
 
@@ -62,7 +62,7 @@ This page ensures user management is straightforward, secure, and tailored to yo
 
 ## Summary
 
-This concludes the current module. You now know how to configure a SSO service in Oracle Private AI Agent Studio, and interpret the information provided on the user management dashboard. The next modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss on new discoveries and learning opportunities.
+This concludes the current module. You now know how to configure a SSO service in Oracle Private AI Agent Studio, and interpret the information provided on the user management dashboard. The next modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

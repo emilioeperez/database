@@ -1,4 +1,4 @@
-# Learn to install and deploy Oracle Private AI Agent Studio
+# Lab 1: Learn to install and deploy Oracle Private AI Agent Studio
 
 ## Introduction
 
@@ -17,11 +17,11 @@ By the end of this lab, you will be able to:
 ### Prerequisites
 
 - An Oracle Linux 8 virtual machine (VM) with terminal access and root/sudo privileges.
-- Podman container engine (see our [installation guide](http://applied-ai-stage.oraclecorp.com:8000/get-started/setup.html) if needed).
+- Podman container engine. Installation guide available on Get Started section.
 - Access to an Oracle Pluggable Database (PDB) with SYSDBA credentials.
 - Network access to the VM (including open port 8080 for web browser access).
 
-## Task 1. Get installation files
+## Task 1: Get installation files
 
 First, create a staging location, which is a designated directory to store build artifacts such as executables and configuration files for creating Podman images.
 
@@ -47,7 +47,7 @@ tar -xzf applied-ai.tar.gz
 
 The extracted folder will contain several essential files. All of these files are essential for the installation and it is strongly recommended that you do not modify any of the files or the directory structure.
 
-## Task 2. Prepare the database
+## Task 2: Prepare the database
 
 Before installing Oracle Private AI Agent Studio, you must configure your database.
 
@@ -121,7 +121,7 @@ You selected Production mode. Confirm? (yes/no) [yes]: yes
 
 Wait for a few minutes until the process is completed.
 
-## Task 4. Launch the application
+## Task 4: Launch the application
 
 To start the application, please run the following command:
 
@@ -131,7 +131,7 @@ make up
 
 this process may take a few minutes. Please wait until you see `✓ Production deployment complete.`.
 
-## Task 5. Open Private AI Agent Studio
+## Task 5: Open Private AI Agent Studio
 
 To begin using your instance of Oracle Private AI Agent Studio, navigate to `https://localhost:8080/studio/installation`. You should see a Sign Up page like the following.
 
@@ -139,7 +139,7 @@ To begin using your instance of Oracle Private AI Agent Studio, navigate to `htt
 
 ## Summary
 
-This concludes this module. The installation has been completed. The next modules will explore each feature of Oracle Private AI Agent Studio in more detail. Continue with them so you don't miss on new discoveries and learning opportunities.
+This concludes this module. The installation has been completed. The next modules will explore each feature of Oracle Private AI Agent Studio in more detail. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

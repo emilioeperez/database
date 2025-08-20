@@ -7,6 +7,10 @@
       "filename": "../../introduction/introduction.md"
     },
     {
+      "title": "Get Started",
+      "filename": "../../get_started/get_started.md"
+    },
+    {
       "title": "Lab 1: Learn to install and deploy Oracle Private AI Agent Studio",
       "filename": "../../lab1/lab1.md"
     },

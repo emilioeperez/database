@@ -1,4 +1,4 @@
-# Configure OCI GenAI services and Oracle Autonomous Database
+# Lab 2: Configure OCI GenAI services and Oracle Autonomous Database
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Continuing from the previous module, you will now sign up for Oracle Private AI 
 
 ![Sign Up Screen](images/sign_up.png)
 
-## Task 2. Configure Application Data Database Connection
+## Task 2: Configure Application Data Database Connection
 
 Next, connect to the database where application data will be stored. We strongly suggest creating a dedicated user for this purpose, separate from your production environment.
 
@@ -38,7 +38,7 @@ You can either enter the Oracle 23ai Database connection details directly, provi
 
 After entering your credentials, click **Test Connection**. If the credentials are correct, a "Database connection successful" message will be displayed. Then click **Next**.
 
-## Task 3. Database Installation
+## Task 3: Database Installation
 
 Proceed to install Oracle Private AI Agent Studio into the configured database.
 
@@ -48,7 +48,7 @@ Click **Install** and wait a few minutes for the setup to complete. When finishe
 
 ![Installation complete](images/db_installation_complete.png)
 
-## Task 4. LLM Configuration
+## Task 4: LLM Configuration
 
 Select an LLM configuration based on your LLM provider. The application supports integration with Ollama, vLLM, OpenAI, and the full suite of OCI GenAI offerings. Depending on your select provider, the required connection credentials may differ.
 
@@ -60,7 +60,7 @@ Oracle Private AI Agent Studio also enables you to add a dedicated embedding mod
 
 After saving the configuration and successfully connecting to the model, click **Finish installation**.
 
-## Task 5. Log In
+## Task 5: Log In
 
 With the configuration complete, you will be prompted to log in with the email and password created in Task 1. After logging in, you will be greeted by the Get Started screen.
 
@@ -68,7 +68,7 @@ With the configuration complete, you will be prompted to log in with the email a
 
 ## Summary
 
-This concludes the current module. Your configuration is now complete. The following modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss on new discoveries and learning opportunities.
+This concludes the current module. Your configuration is now complete. The following modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

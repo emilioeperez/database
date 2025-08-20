@@ -1,4 +1,4 @@
-# Walk through the usage of the Template Gallery and Agent Builder features
+# Lab 7: Walk through the usage of the Template Gallery and Agent Builder features
 
 ## Introduction
 
@@ -64,7 +64,7 @@ Templates may include workflows for tasks such as document summarization, meetin
 
     ![Publish Workflow](images/publish_workflow.png)
 
-## Task 2. Interact with the created workflow
+## Task 2: Interact with the created workflow
 
 After publishing the workflow, go to your workflow gallery. In the sidebar, click **My Custom Workflows**.
 
@@ -169,7 +169,7 @@ Once comfortable, try designing a workflow of your own—tailor it to your data,
 
 This concludes the current module. You now know how to use the Template Gallery to leverage pre-build workflows and hot to design your own custom workflows using the Agent Builder. These tools enable you to build, test and deploy advanced AI workflows tailored for your needs.
 
-We hope this LiveLab has been illustrative and helpful to you in exploring and learning all of the features of Oracle Private AI Agent Studio. Explore additional modules for further discoveries and learning opportunities.
+We hope this LiveLab has been illustrative and helpful to you in exploring and learning all of the features of Oracle Private AI Agent Studio. Explore additional modules for further discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

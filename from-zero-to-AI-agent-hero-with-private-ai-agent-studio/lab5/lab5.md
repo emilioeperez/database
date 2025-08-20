@@ -1,4 +1,4 @@
-# Walk through building agentic RAG on custom enterprise data with secure access
+# Lab 5: Build agentic RAG on custom enterprise data with secure access
 
 ## Introduction
 
@@ -21,7 +21,7 @@ By the end of this lab, you will be able to:
 
 To follow this tutorial, it is suggested that you have access to an Oracle Private AI Agent Studio environment with permissions to add and manage knowledge agents.
 
-## Task 1. Create a Blank Knowledge Agent
+## Task 1: Create a Blank Knowledge Agent
 
 In this task you will create a new blank Knowledge Agent.
 
@@ -42,7 +42,7 @@ You will be prompted to choose a Web source data source. You can select the one 
 
 4. Wait a few moments while the agent is being published. After that you will be able to see it on the Knowledge Agent gallery.
 
-## Task 2. Chat with your custom Knowledge Agent
+## Task 2: Chat with your custom Knowledge Agent
 
 ![Knowledge Base Gallery](images/kagent_gallery.png)
 
@@ -54,7 +54,7 @@ Here, you will be able to interact with the agent by asking questions and receiv
 
 ## Summary
 
-This concludes the current module. You now know how to create Knowledge Agents with custom knowledge bases and interact with them to get grounded, specific information in an air-gapped environment. The next module will further explore other features of Oracle Private AI Agent Studio. Continue with them so you don't miss on new discoveries and learning opportunities.
+This concludes the current module. You now know how to create Knowledge Agents with custom knowledge bases and interact with them to get grounded, specific information in an air-gapped environment. The next module will further explore other features of Oracle Private AI Agent Studio. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 
