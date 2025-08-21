@@ -138,10 +138,8 @@ In this task you will create a simple workflow to gain hands-on experience with 
 
     Add a **Prompt** node and enter instructions in the text box. If you wish to add variable information, encapsulate it in curly braces; this will automatically add a connection edge to the node once saved. Example:
 
-    ```bash
-    Given the provided text, extract all key information and important details. Use this information to automatically generate a easy to understand summary.
+    >Given the provided text, extract all key information and important details. Use this information to automatically generate a easy to understand summary.
     Provided text : {{user_input}}
-    ```
 
     ![Agent Builder screen showing step 4a, adding a Prompt node to the workflow. A red arrow points from the Prompt component in the left panel to a newly created Prompt node placed between the Chat Input and OCI Agent nodes in the workspace. The Prompt node features a template input and save button.](images/step4a.png)
 

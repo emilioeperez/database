@@ -27,22 +27,29 @@ First, create a staging location, which is a designated directory to store build
 
 Run the following commands to create and navigate to the staging location:
 
+> **Note:** Replace `[STAGING_LOCATION]` with your specific staging directory.
+
 ```bash
-mkdir <staging_location>
-cd <staging_location>
+<copy>
+mkdir <STAGING_LOCATION>
+cd <STAGING_LOCATION>
+</copy>
 ```
 
 Download Oracle Private AI Agent Studio by running this command on your OL8 terminal:
 
 ```bash
+<copy>
 wget https://artifacthub-phx.oci.oraclecorp.com/artifactory/ahf-generic-release-local/releases/applied-ai/23.0.0.2/applied_ai.tar.gz
-
+</copy>
 ```
 
 After downloading `applied-ai.tar.gz`, extract its contents:
 
 ```bash
+<copy>
 tar -xzf applied-ai.tar.gz
+</copy>
 ```
 
 The extracted folder will contain several essential files. All of these files are essential for the installation and it is strongly recommended that you do not modify any of the files or the directory structure.
@@ -56,11 +63,13 @@ Before installing Oracle Private AI Agent Studio, you must configure your databa
 2. Create the database user. Replace <DB_USER> and <DB_PASSWORD> with your desired credentials, then run the commands below.
 
     ```SQL
+    <copy>
     CREATE USER <DB_USER> IDENTIFIED BY <DB_PASSWORD> DEFAULT TABLESPACE USERS QUOTA unlimited ON USERS;
     GRANT CONNECT, RESOURCE, CREATE SESSION, CREATE TABLE, CREATE SYNONYM, CREATE DATABASE LINK, CREATE ANY INDEX, INSERT ANY TABLE, CREATE SEQUENCE, CREATE TRIGGER TO <DB_USER>;
     GRANT READ, WRITE ON DIRECTORY DATA_PUMP_DIR TO <DB_USER>;
     GRANT SELECT ON V_$PARAMETER TO <DB_USER>;
     exit;
+    </copy>
     ```
 
 3. Log out.
@@ -72,11 +81,15 @@ Now, you need to Extend VARCHAR2. The `max_string_size` database parameter must 
 2. Check the current value of the parameter:
 
     ```SQL
-    SELECT value FROM v$parameter WHERE name = 'max_string_size';```
+    <copy>
+    SELECT value FROM v$parameter WHERE name = 'max_string_size';
+    </copy>
+    ```
 
 3. If the output is already `EXTENDED`, no further action is needed. Otherwise, run the following script as the SYSDBA user. This sequence will restart the database.
 
     ```SQL
+    <copy>
     ALTER SYSTEM SET max_string_size=extended SCOPE=SPFILE;
 
     SHUTDOWN NORMAL;
@@ -88,12 +101,15 @@ Now, you need to Extend VARCHAR2. The `max_string_size` database parameter must 
     STARTUP;
 
     @$ORACLE_HOME/rdbms/admin/utlrp.sql
+    </copy>
     ```
 
 4. Verify that the change was successful.
 
     ```SQL
+    <copy>
     SELECT value FROM v$parameter WHERE name = 'max_string_size';
+    </copy>
     ```
 
     The output of this query must be EXTENDED.
@@ -103,30 +119,21 @@ Now, you need to Extend VARCHAR2. The `max_string_size` database parameter must 
 Prepare your environment by running the following command in your staging location:
 
 ```bash
+<copy>
 make build
+</copy>
 ```
 
-You will be prompted to select the installation mode. Please select "prod" by entering "1", and confirm your selection when prompted:
-
-```bash
-Select installation mode:
-1) prod
-2) quickstart
-Enter choice (1 or 2): 1
-
-Building the images necessary in Production mode
-
-You selected Production mode. Confirm? (yes/no) [yes]: yes
-```
-
-Wait for a few minutes until the process is completed.
+You will be prompted to select the installation mode. Please select "prod" by entering "1", and confirm your selection when prompted. Wait for a few minutes until the process is completed.
 
 ## Task 4: Launch the application
 
 To start the application, please run the following command:
 
 ```bash
+<copy>
 make up
+</copy>
 ```
 
 this process may take a few minutes. Please wait until you see `✓ Production deployment complete.`.
