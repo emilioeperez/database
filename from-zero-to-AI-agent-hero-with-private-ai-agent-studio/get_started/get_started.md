@@ -24,7 +24,7 @@ Podman is a container engine that is essential for preparing the key components 
 
 The installation steps may vary depending on your system and environment. Please refer to our setup guide and follow the instructions that best suit your environment.
 
-[Oracle Private AI Agent Studio installation guide](http://applied-ai-stage.oraclecorp.com:8000/get-started/setup.html)
+[Oracle Private AI Agent Studio installation guide](http://applied-ai-stage.oraclecorp.com:8000/index.html)
 
 ## Acknowledgements
 
