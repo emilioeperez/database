@@ -27,28 +27,29 @@ In this task you will create a new blank Knowledge Agent.
 
 1. Open Oracle Private AI Agent Studio and log in. In the sidebar, click the **Knowledge Agent** section.
 
-    ![Knowledge Agent](images/left_panel.png)
+    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Knowledge Agent option under the Pre-built Agents section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel.png)
 
-    ![Knowledge Agent](images/knowledge_agent.png)
+    ![Knowledge Agents screen displaying a search bar and a card for the Oracle Private AI Agent Studio Knowledge Assistant, which is described as a knowledge base consisting of documentation for Oracle Private AI Agent Studio. A button for creating a blank knowledge agent from scratch appears at the bottom.](images/knowledge_agent.png)
 
 2. At the bottom of the screen click **Blank Knowledge Agent**.
-You will be prompted to choose a Web source data source. You can select the one created on Lab 4 or create a new one. This data source will be knowledge base for this agent. Click **Next** to continue.
 
-    ![Knowledge Base Configuration](images/kbase_config.png)
+    You will be prompted to choose a Web source data source. You can select the one created on Lab 4 or create a new one. This data source will be knowledge base for this agent. Click **Next** to continue.
+
+    ![Create Knowledge Agent screen showing step 1 of 3, with options to select data sources for the agent to learn from. The Web Sources table lists available sources by name, endpoint, and status, and includes a button to add a new web source. 'Next' and 'Cancel' buttons appear at the bottom of the screen.](images/kbase_config.png)
 
 3. The Knowledge Base Configuration setup form will be displayed. Assign an agent name and description to easily identify the agent you are creating. Click **Next**, then **Publish Agent** to continue.
 
-    ![Knowledge Agent Configuration](images/kagent_config.png)
+    ![Create Knowledge Agent screen showing step 2 of 3, with options to create the knowledge base with selected sources, a visible data source selection and a Knowledge Base configuration form with fields for agent name and description. 'Next' and 'Previous' buttons appear at the bottom of the screen.](images/kagent_config.png)
 
 4. Wait a few moments while the agent is being published. After that you will be able to see it on the Knowledge Agent gallery.
 
 ## Task 2: Chat with your custom Knowledge Agent
 
-![Knowledge Base Gallery](images/kagent_gallery.png)
+![Knowledge Agents gallery screen showing two cards: one for 'My Knowledge Agent' trained on selected documentation, and another for 'Oracle Private AI Agent Studio Knowledge Assistant' based on documentation for Oracle Private AI Agent Studio. The screen also includes a search bar and a button to create a blank knowledge agent from scratch.](images/kagent_gallery.png)
 
 Continuing from where the last task left off, click the recently created Knowledge Agent.
 
-![Knowledge Base Chat](images/kagent_chat.png)
+![Knowledge Base Chat screen for 'My Knowledge Agent' with tabs for messages, chat history, and help. The main chat area displays the prompt 'Ask a question to your knowledge base' with a message input field at the bottom containing 'How can I help you?'.](images/kagent_chat.png)
 
 Here, you will be able to interact with the agent by asking questions and receiving grounded answers based on the ingested data from its knowledge base.
 

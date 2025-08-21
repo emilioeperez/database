@@ -26,7 +26,7 @@ By the end of this lab, you will be able to:
 
 Continuing from the previous module, you will now sign up for Oracle Private AI Agent Studio by creating a user account. You will need to set up an email and a securely stored password. This user will be responsible for managing the Oracle Private AI Agent Studio application and its other users.
 
-![Sign Up Screen](images/sign_up.png)
+![Sign Up screen for Oracle Private AI Agent Studio displaying user configuration step. The form includes fields for email, password, and repeat password, with an information box stating that this user would be responsible for managing the application and other users. The 'Next' button is disabled.](images/sign_up.png)
 
 ## Task 2: Configure Application Data Database Connection
 
@@ -34,7 +34,7 @@ Next, connect to the database where application data will be stored. We strongly
 
 You can either enter the Oracle 23ai Database connection details directly, provide the connection string or upload a database wallet file.
 
-![Database Setup](images/database_setup.png)
+![Database configuration screen for Oracle Private AI Agent Studio showing fields for connection protocol, host, port, service name, username, and password. An information box at the top explains the purpose of configuring a 23ai database connection for storage and search, and a 'Test Connection' button is at the bottom. Other connection options are Connection String and Wallet.](images/database_setup.png)
 
 After entering your credentials, click **Test Connection**. If the credentials are correct, a "Database connection successful" message will be displayed. Then click **Next**.
 
@@ -42,17 +42,17 @@ After entering your credentials, click **Test Connection**. If the credentials a
 
 Proceed to install Oracle Private AI Agent Studio into the configured database.
 
-![Installation](images/db_installation.png)
+![Installation screen for Oracle Private AI Agent Studio showing an info box explaining that the application will be installed into the configured database, with an 'Install' button below the message and the 'Next' button disabled.](images/db_installation.png)
 
 Click **Install** and wait a few minutes for the setup to complete. When finished, you will see the message `✓ Please proceed to the next step for LLM Configuration`. Then press **Next**.
 
-![Installation complete](images/db_installation_complete.png)
+![Installation complete screen for Oracle Private AI Agent Studio displaying an information box about the installation, a detailed installation log with successful migration and component start messages, and a 'Next' button enabled.](images/db_installation_complete.png)
 
 ## Task 4: LLM Configuration
 
 Select an LLM configuration based on your LLM provider. The application supports integration with Ollama, vLLM, OpenAI, and the full suite of OCI GenAI offerings. Depending on your select provider, the required connection credentials may differ.
 
-![LLM Configuration](images/llm_config.png)
+![LLM Configuration screen for Oracle Private AI Agent Studio showing fields to configure a generative model, including configuration name, model ID, endpoint, compartment ID, user, tenancy, fingerprint, region, and a key file upload area. The 'With Finger Print' option is selected, and the OCI GenAI tab is active. Available generative model options are: Ollama, vLLM, OpenAI and OCI GenAI.](images/llm_config.png)
 
 Once all required fields are completed, test the connection using the **Test Connection** button. If the credentials are valid, a "Connection successful" message will appear. Then click **Save Configuration**.
 
@@ -64,7 +64,7 @@ After saving the configuration and successfully connecting to the model, click *
 
 With the configuration complete, you will be prompted to log in with the email and password created in Task 1. After logging in, you will be greeted by the Get Started screen.
 
-![Log In Screen](images/log_in.png)
+![The Log In screen for Oracle Private AI Agent Studio, featuring a form with fields for email and password. An unchecked box of 'Remember me' and a 'Forgot password?' link are visible. The 'Sign In' button is currently disabled.](images/log_in.png)
 
 ## Summary
 

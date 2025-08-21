@@ -28,13 +28,13 @@ This feature enables the integration with enterprise databases like Oracle Datab
 
 1. Open Oracle Private AI Agent Studio and log in. In the sidebar, click the **Data Sources** section.
 
-    ![Data Sources](images/left_panel.png)
+    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Data Sources option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel.png)
 
-    ![Data Sources](images/data_sources.png)
+    ![Data Sources screen in Oracle Private AI Agent Studio showing a list of data sources with columns for name, connection, status, added by, last sync, created date, and actions. The status indicates 'ingestion deactivated' for the listed data source. An 'Add Data Source' button is highlighted in the top right corner.](images/data_sources.png)
 
 2. Click the **Add Data Source** button. A setup form will be displayed, allowing you to add Web Sources, Databases or REST APIs. For this task, select Database.
 
-    ![Data Source Database](images/datasource_add_database.png)
+    ![Data Source configuration screen in Oracle Private AI Agent Studio. The screen features a dropdown menu with 'Database' selected. The form includes fields for source name, description, host, port, service name, username and password. At the bottom of the form are 'Test connection', 'Cancel' and 'Add Database Source' buttons.](images/datasource_add_database.png)
 
 3. After completing the form with necessary information, press the **Test Connection** button. If the connection is successful, a "Database connection successful" message will be displayed. Then, click the **Add Database Source** button. The newly added data source will appear in the list.
 
@@ -44,7 +44,7 @@ Web data sources allow you to use publicly available website content, including 
 
 This feature lets you configure how often a site is crawled for new or updated information, whether to use a proxy, and set the depth of link exploration. By adding a Web Source, you can easily expand the accessible information for your agents and ensure the knowledge base remains current and accurate as the system regularly checks for updates.
 
-![Web Source Data Source](images/datasource_add_websource.png)
+![Data Source configuration screen in Oracle Private AI Agent Studio. The screen features a dropdown menu with 'Web Source' selected. The form includes fields for source name, description, endpoint and exclude file extensions; a URL Filters section to specify URL patterns for inclusion or exclusion, with an 'Add Filter' button; a crawl depth textbox set to zero, an unchecked 'Unlimited' box, and a crawl frequency (hrs) textbox set to one. At the bottom of the form are 'Cancel' and 'Add Web Source' buttons.](images/datasource_add_websource.png)
 
 To add a web source, follow a process similar to adding a database.
 
@@ -64,7 +64,7 @@ Oracle Private AI Agent Studio allows you to add a REST API as data sources. Ope
 
 Following this industry standard ensures clearly defined API endpoints, HTTP methods, input/output parameters, authentication methods, and expected responses. APIs described in the OpenAPI format are easily discovered, consumed, and integrated across platforms and tools.
 
-![REST API Data Source](images/datasource_add_rest_api.png)
+![Data Source configuration screen in Oracle Private AI Agent Studio. The screen features a dropdown menu with 'Rest API' selected. The form includes a drag and drop area to upload an OpenAPI specification, a note about uploading an OpenAPI 2.0+ JSON file. At the bottom of the form are 'Advanced configuration', 'Cancel' and 'Add REST API Source' buttons.](images/datasource_add_rest_api.png)
 
 You can add a OpenAPI-compatible REST API by simply dragging and dropping your OpenAPI 2.0+ specification JSON file; the API endpoints will be automatically configured.
 
@@ -76,13 +76,13 @@ Click **Add REST API Source** to include it among your collection of secure and 
 
 Oracle Private AI Agent Studio allows you to add files as data sources. Adding your own PDF files enables your agents to access to more robust and up-to-date knowledge base, removing the need to convert your documentation to other formats.
 
-![File Data Source](images/datasource_add_file.png)
+![Data Source configuration screen in Oracle Private AI Agent Studio. The screen features a dropdown menu with 'File' selected. The form includes fields for source name, description, a drag and drop area to upload files. At the bottom of the form are 'Cancel' and 'Add File Source' buttons.](images/datasource_add_file.png)
 
 Add a file as a data source by assigning a name and description, then simply dragging and dropping the file into the designated box. Click **Add File Source** to enrich your knowledge base with your documents.
 
 ## Task 5: Manage your custom data sources
 
-![Data source collection](images/datasource_collection.png)
+![Data Sources screen showing a collection of web sources in a table with columns for name, connection, status, added by, last sync, created date, and actions. The table lists sources for Oracle Private AI Agent Studio Documentation, Wikipedia, and Oracle website, with statuses indicating ingestion deactivated, ingested, and crawling.](images/datasource_collection.png)
 
 Oracle Private AI Agent Studio allows you to edit or delete previously added data sources at any time, allowing you to effectively manage the information accessible to your agents.
 

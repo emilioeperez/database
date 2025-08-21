@@ -13,7 +13,7 @@ This liveLab workshop will be a comprehensive guide on the full lifecycle of dep
 - Create users, secure agents and authorize agent users.
 - Privately Connect Your Own Data Sources to Boost LLM Insights.
 - Build agentic RAG on custom enterprise data with secure access.
-- Enable RAG on structured data (table/CSV) with the Data Analysis Agent and variation analysis
+- Enable RAG on structured data (table/CSV) with the Data Analysis Agent and variation analysis.
 - Walk through the usage of the Template Gallery and Agent Builder features.
 
 ## Acknowledgements

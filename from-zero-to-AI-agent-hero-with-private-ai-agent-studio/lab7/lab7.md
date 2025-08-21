@@ -27,56 +27,56 @@ The Template Gallery offers a curated collection of pre-built agentic templates 
 
 Templates may include workflows for tasks such as document summarization, meeting note extraction, content transformation, and more. You can browse, search, and import any template that fits your needs, customizing them as needed with minimal configuration.
 
-![Template Gallery](images/left_panel_template_gallery.png)
+![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Template Gallery option under the Studio section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel_template_gallery.png)
 
 1. Open Oracle Private AI Agent Studio and log in. In the sidebar, click **Template Gallery**.
 
-    ![Template Gallery Options](images/template_gallery.png)
+    ![Template Gallery screen displaying a list of template options, each with a description, last updated date, and an 'Import Flow' button. Templates include Draft Release Notes Generator, PDF to Blog Converter, Meeting Summary Item Extractor, Recruitment Optimizer, and Generate Product Pitch.](images/template_gallery.png)
 
     Here you will find all prebuilt workflows currently offered by Oracle Private AI Agent Studio.
 
 2. For this tutorial, we will use the "PDF to Blog Converter" as an example, but you are encouraged to explore other templates based on your needs. Select a template to continue.
 
-    ![pdf-to-blog workflow](images/pdf-to-blog.png)
+    ![Agent Builder workflow for a pdf-to-blog converter, showing nodes for File Upload, Prompt, Vllm (language model), Chat Input, and Chat Output connected in sequence. The File Upload and Chat Input nodes feed into the Prompt node, which sends its output to the Vllm node, and finally to the Chat Output node. Node configuration panels and connection points are visible.](images/pdf-to-blog.png)
 
 3. The prebuilt workflow will be displayed and can be customized using a simple drag-and-drop interface, no code required. To help identify the workflow, you can change its name in the top right corner of the canvas. For this example, type a name such as “Blog Post Generator” or another descriptive name of your choice.
 
-    ![Edit Details](images/edit_details.png)
+    ![Edit Details modal dialog open in Agent Builder, showing fields to edit the name and description of the custom flow. The background displays the workflow editor with nodes and connections, while the modal has options to cancel or save changes.](images/edit_details.png)
 
-4. As part of this example workflow, you may be prompted to modify workflow components. For instance, you can remove a node by selecting it and pressing Delete, and you can add a new node (such as an LLM or agent) by dragging it from the palette and configuring it as needed.
+4. You are also able modify the workflow components to suit your needs. For instance, you can remove a node by selecting it and pressing Delete, and you can add a new node (such as an LLM or agent) by dragging it from the palette and configuring it as needed.
 
-    ![Delete the Vllm node](images/pdf_to_blog_4a.png)
+    ![Agent Builder workflow for pdf-to-blog showing the Vllm node highlighted with a red 'delete' label, indicating it is selected for deletion. Other nodes include File Upload, Prompt, Chat Input, and Chat Output, all connected in sequence.](images/pdf_to_blog_4a.png)
 
-    ![Add a OCI Agent node](images/pdf_to_blog_4b.png)
+    ![Agent Builder workflow for pdf-to-blog showing an arrow from the OCI Agent component in the side panel to a newly added OCI Agent node in the workspace. The node's configuration field is highlighted, and it is connected in sequence after the Prompt node, replacing the previous Vllm node.](images/pdf_to_blog_4b.png)
 
-    For any agent, supply an LLM configuration name that matches one set up in your environment.
+    For any workflow, make sure you supply an LLM configuration name that matches one set up in your environment.
     Connect nodes by dragging from the output of one node to the input of another as instructed.
 
-    ![Connect nodes](images/pdf_to_blog_4c.png)
+    ![Agent Builder workflow showing the nodes being connected. The output of the Prompt node is actively connected to the Prompt input of the OCI Agent node, indicated by highlighted connection points and an arrow. Other nodes include File Upload, Chat Input, and Chat Output.](images/pdf_to_blog_4c.png)
 
-    ![pdf-to-blog structure](images/pdf_to_blog_4d.png)
+    ![Agent Builder workflow for pdf-to-blog structure showing fully connected nodes: File Upload and Chat Input feed into the Prompt node, which connects to the OCI Agent node, and then to the Chat Output node. All nodes are configured and linked in a sequential flow.](images/pdf_to_blog_4d.png)
 
 5. Some templates are designed to process files as inputs, such as PDF files. If the template requires it, use the **Upload File** function, select your file, and choose it from the dropdown.
 
-    ![Select file](images/select_placeholder.png)
+    ![Agent Builder workflow showing the File Upload node's dropdown expanded to select a file, with a PDF file highlighted. The workflow connects File Upload and Chat Input nodes to a Prompt node, which links to an OCI Agent node and then to a Chat Output node.](images/select_placeholder.png)
 
 6. Click Publish to deploy your customized workflow.
 
-    ![Publish Workflow](images/publish_workflow.png)
+    ![Publish Workflow confirmation dialog open in Agent Builder, asking the user to confirm publishing the '23ai Database New Features' workflow. The dialog has Cancel and Confirm buttons, overlaying the workflow editor with connected nodes for File Upload, Prompt, OCI Agent, and Chat Output.](images/publish_workflow.png)
 
 ## Task 2: Interact with the created workflow
 
 After publishing the workflow, go to your workflow gallery. In the sidebar, click **My Custom Workflows**.
 
-![Custom Workflows](images/custom_flows.png)
+![My custom workflows screen displaying a search bar and a card for the 23ai Database New Features workflow, which contains a description, a label indicating it has been published and the last updated date. Buttons for delete, edit and run the workflow appears at the bottom.](images/custom_flows.png)
 
 Select your workflow from the gallery. Here, you can edit, delete, or run your custom workflows. To proceed, click **Run Flow**.
 
-![pdf-to-blog chat interface](images/pdf_to_blog_chat_ui.png)
+![23ai Database New Features Chat screen with tabs for messages and chat history. The main chat area displays the prompt 'Star using your custom flow' with a message input field at the bottom containing 'How can I help you?'.](images/pdf_to_blog_chat_ui.png)
 
 Interact with your workflow through the chat interface. Example query prompts will depend on your data source contents. For example, if your document is a product release guide, you could ask about new features described within. The workflow will provide responses based only on the information it has processed from your chosen file.
 
-![pdf-to-blog chat interface](images/pdf_to_blog_qa.png)
+![Chat interface foe the '23ai Database New Features' custom workflow showing a user asking about the new data type added in Oracle Database 23ai and a response from the custom Flow answering the question. The main area displays messages and responses, with chat input available at the bottom.](images/pdf_to_blog_qa.png)
 
 ## (Optional) Task 3: Explore other templates
 
@@ -108,15 +108,15 @@ In this task you will create a simple workflow to gain hands-on experience with 
 1. **Open Oracle Private AI Agent Studio and log in.**
     In the sidebar, click **Agent Builder**.
 
-    ![Agent Builder](images/left_panel_agent_builder.png)
+    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Agent Builder option under the Utilities section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel_agent_builder.png)
 
-    ![Agent Builder](images/agent_builder.png)
+    ![Agent Builder screen showing a components panel on the left with categories such as Language Model, Agents, Tools, Inputs, Outputs, and Data. The main workspace area is blank, and 'Playground' and 'Publish' buttons are in the upper right corner.](images/agent_builder.png)
 
 2. Add nodes.
 
     On the left side of the canvas, you will find the available nodes. Drag an Agent node (such as OCI Agent or vLLM Agent) onto the canvas. Configure it with an LLM configuration name from your environment.
 
-    ![Step 2. Add OCI Agent node](images/step2.png)
+    ![Agent Builder screen showing step 2, adding an OCI Agent node. A red arrow curves from the OCI Agent option in the components panel on the left to a newly added OCI Agent node on the workspace. The node configuration panel displays fields for configuration, tools, custom instructions, prompt, and temperature.](images/step2.png)
 
     On the top left corner of the canvas type a name for the workflow, such as "Scientific Paper Summarizer".
 
@@ -124,13 +124,13 @@ In this task you will create a simple workflow to gain hands-on experience with 
 
     Repeat the process and add a **Chat Output** node. On the Chat Output node, click on the blue edge and drag it until it connects with the right edge of the OCI/vLLM Agent node edge, as shown below.
 
-    ![Step 3. Add Chat Output node](images/step3a.png)
+    ![Agent Builder screen showing step 3, adding and connecting a Chat Output node to the workflow. A red arrow connects the Message output of the OCI Agent node to the Message input of the Chat Output node, with both nodes visible and highlighted connection points.](images/step3a.png)
 
     If you need to remove a connection between two nodes, simply click the connecting line and press Delete on you keyboard.
 
     Add a **Chat Input** node as well, but do not connect it for now.
 
-    ![Step 3. Add Chat Output node](images/step3b.png)
+    ![Agent Builder screen showing an arrow from the Chat Input component in the left panel to a newly placed Chat Input node in the workspace. The workflow contains three nodes: Chat Input, OCI Agent, and Chat Output, with the OCI Agent connected to the Chat Output.](images/step3b.png)
 
 4. Enrich prompts.
 
@@ -143,23 +143,23 @@ In this task you will create a simple workflow to gain hands-on experience with 
     Provided text : {{user_input}}
     ```
 
-    ![Step 4. Add a Prompt node](images/step4a.png)
+    ![Agent Builder screen showing step 4a, adding a Prompt node to the workflow. A red arrow points from the Prompt component in the left panel to a newly created Prompt node placed between the Chat Input and OCI Agent nodes in the workspace. The Prompt node features a template input and save button.](images/step4a.png)
 
-    ![Step 4. Add a Prompt node](images/step4b.png)
+    ![Agent Builder screen showing step 4b, with a Prompt node added between the Chat Input and OCI Agent nodes. The Prompt node contains a filled-in template field describing instructions to generate an easy-to-understand summary, including a variable for user input.](images/step4b.png)
 
-    ![Step 4. Add a Prompt node](images/step4c.png)
+    ![Agent Builder screen showing step 4c, a canvas displaying a workflow with File Upload, Prompt, OCI Agent, and Chat Output nodes. The Prompt node receives input from both the File Upload and Chat Input nodes, and its output is connected to the Prompt input of the OCI Agent. Path connections and active connection points are highlighted in the workflow.](images/step4c.png)
 
     Connect the nodes as illustrated so that the Chat Input feeds into the Prompt, which feeds into the agent node, which connects to the Chat Output.
 
-    ![Step 4. Add a Prompt node](images/step4d.png)
+    ![Agent Builder screen showing step 4d, with the Chat Input node connected to the Prompt node, the Prompt node connected to the OCI Agent node, and the OCI Agent node connected to the Chat Output node. Arrows indicate the workflow sequence through all nodes, and the Prompt template field is populated with summary instructions and a user input variable.](images/step4d.png)
 
 5. Save and test.
 
     Save the workflow by clicking the **Save** button in the top-right corner of the canvas. You can test the workflow before publishing it by clicking **Playground**. In the Playground, you may use test text or sample data relevant to your organization for input.
 
-    ![Step 5a. Save](images/step5a.png)
+    ![Scientific Paper Summarizer custom flow screen showing a message that the new custom flow has been created. The main area prompts the user to start using the custom flow by typing a message, with options to start a new chat or go back to the builder. The chat input field is visible at the bottom.](images/step5a.png)
 
-    ![Step 5b. Test](images/step5b.png)
+    ![Scientific Paper Summarizer custom flow test screen showing a user input and the Custom Flow Agent's response with a summary and key points about the data source used. The interface includes options to start a new chat or go back to the builder, and the chat input field is visible at the bottom.](images/step5b.png)
 
 ## (Optional) Task 6: Create your own custom workflow
 

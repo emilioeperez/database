@@ -135,7 +135,7 @@ this process may take a few minutes. Please wait until you see `✓ Production d
 
 To begin using your instance of Oracle Private AI Agent Studio, navigate to `https://localhost:8080/studio/installation`. You should see a Sign Up page like the following.
 
-![Sign Up Screen](images/sign_up.png)
+![Sign Up screen for Oracle Private AI Agent Studio displaying user configuration step. The form includes fields for email, password, and repeat password, with an information box stating that this user would be responsible for managing the application and other users. The 'Next' button is disabled.](images/sign_up.png)
 
 ## Summary
 

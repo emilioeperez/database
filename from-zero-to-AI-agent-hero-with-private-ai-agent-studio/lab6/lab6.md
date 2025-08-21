@@ -30,25 +30,23 @@ In this task, you will create a custom Data Analysis Agent to work directly with
 
 1. Open Oracle Private AI Studio and log in. In the sidebar, click the **Data Analysis Agent** section.
 
-    ![Data Analysis Agent](images/left_panel.png)
+    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Data Analysis Agent option under the Pre-built Agents section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel.png)
 
-    ![Data Analysis Agent](images/data_analysis.png)
+    ![Data Analysis Agents screen displaying a search bar and a message indicating that no agents are available yet. A button for creating a new agent and a blank data analysis agent from scratch are displayed at the bottom.](images/data_analysis.png)
 
 2. Click the **Create Data Analysis Agent** button. A setup form will appear, allowing you to select the data source for this agent. (Note that, at this time, Data Analysis Agents only support a single table for analysis)
 
-![Data Analysis Data Sources](images/data_analysis_data_source.png)
+    ![Create Data Analysis Agent screen showing step 1 of 3, allowing selection of database sources. Users can select a database and table from dropdown menus, add a new database source, and proceed to the next step or cancel. A note indicates only a single table is supported. 'Next' and 'Cancel' buttons appear at the bottom of the screen.](images/data_analysis_data_source.png)
 
-For this task, choose **Database Sources**, then use the "Select database" drop-down menu to pick an available enterprise database in your environment you want to work with. Similarly, select any table you would like to analyze from the "Select table" menu. Click the **Next** button to continue.
+    For this task, choose **Database Sources**, then use the "Select database" drop-down menu to pick an available enterprise database in your environment you want to work with. Similarly, select any table you would like to analyze from the "Select table" menu. Click the **Next** button to continue.
 
 > The screenshots use an example database and table; your selections may differ based on what is available to you.
 
 ## Task 2: Fill Up Agent Details
 
-![Data Analysis Configuration](images/data_analysis_config.png)
+![Create Data Analysis Agent screen showing step 2 of 3, allowing to fill up agent details. Users can review the selected sources and complete a form with fields for agent name, description an help description. 'Next' and 'Previous' buttons appear at the bottom of the screen.](images/data_analysis_config.png)
 
 On this screen, you can configure your Data Analysis Agent with the selected sources. The setup form allows you to provide an agent name and description to help users identify it, as well as a Help Description in Markdown format. This Help Description assists the LLM in better understanding the agent's purpose, enabling it to provide more accurate and relevant answers.
-
-For this tutorial, use the following information:
 
 For this tutorial, use information that describes your chosen data source. For example:
 
@@ -60,11 +58,11 @@ Click the **Next** button to continue.
 
 You will see the Publish Agent screen, where you can review the information provided and deploy the Data Analysis Agent.
 
-![Data Sources](images/data_analysis_publish_agent.png)
+![Create Data Analysis Agent screen showing step 3 of 3, where users can review and deploy the agent before publishing. The agent summary displays the agent name, Oracle tables, and CSV files, along with the selected Oracle Table (NATIONAL_PARKS - Production database). 'Publish Agent' and 'Previous' buttons appear at the bottom of the screen.](images/data_analysis_publish_agent.png)
 
 Click the **Publish Agent** button to proceed. Please wait a few seconds; you will be greeted with a success message. The newly created agent will then appear on the Data Analysis Agents Gallery.
 
-![Data Sources](images/data_analysis_gallery.png)
+![Data Analysis Agents screen displaying a search bar and a card for the National Parks Data Analyst, which is described as a data analysis agent trained on selected data sources. A button for creating a blank data analysis agent from scratch appears at the bottom.](images/data_analysis_gallery.png)
 
 ## Task 3: Interact with your Data Analysis Agent
 
@@ -72,15 +70,15 @@ Click on the newly created agent to open a new chat. Here, you can interact with
 
 When you start a chat for the first time, it may take a few moments for the agent to review and interpret the information on the database. Once complete, several interesting insights will be displayed.
 
-![Data Sources](images/data_analyst_initial_insights.png)
+![National Parks Data Analyst chat screen showing the agent interacting with user queries about national parks data. The screen displays responses with SQL queries, answer tables, and visualizations. An 'Execute Exploration' button is in the top right, and a user prompt is entered in the chat input field at the bottom.](images/data_analyst_initial_insights.png)
 
 The agent will suggest some pertinent questions about the data and present the corresponding answers. Depending on the query, the responses may be in natural language text, visualizations, table, and regardless it will share the SQL statement used to generate the answers.
 
-![Data Sources](images/data_analyst_specific_QA.png)
+![National Parks Data Analyst chat screen showing the user asking for the top 10 states with the most parks. The agent responds with a numbered list of states and their counts. 'Execute Exploration' button is visible in the top right, and the chat input field is at the bottom.](images/data_analyst_specific_QA.png)
 
 You can ask your own questions about the dataset with natural language, and the agent will provide an appropriate answer.
 
-![Data Sources](images/data_analyst_custom_QA.png)
+![National Parks Data Analyst chat screen showing a bar chart visualization in response to a user query. The chart displays the number of parks by state. The 'Execute Exploration' button is at the top right, and the chat input field is at the bottom.](images/data_analyst_custom_QA.png)
 
 ## Summary
 
