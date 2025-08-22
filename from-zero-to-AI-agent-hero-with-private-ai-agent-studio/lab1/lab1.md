@@ -36,18 +36,13 @@ cd <STAGING_LOCATION>
 </copy>
 ```
 
-Download Oracle Private AI Agent Studio by running this command on your OL8 terminal:
+Download Oracle Private AI Agent Studio, check our [installation guide](http://applied-ai-stage.oraclecorp.com:8000/index.html) to choose the download option that better suits your environment.
+
+After downloading `applied-ai.tar.gz` move it to your staging location if needed and extract its contents:
 
 ```bash
 <copy>
-wget https://artifacthub-phx.oci.oraclecorp.com/artifactory/ahf-generic-release-local/releases/applied-ai/23.0.0.2/applied_ai.tar.gz
-</copy>
-```
-
-After downloading `applied-ai.tar.gz`, extract its contents:
-
-```bash
-<copy>
+mv applied-ai.tar.gz <STAGING_LOCATION>
 tar -xzf applied-ai.tar.gz
 </copy>
 ```
