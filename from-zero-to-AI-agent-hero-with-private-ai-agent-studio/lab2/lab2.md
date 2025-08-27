@@ -10,7 +10,7 @@ In this lab, you will learn how to connect Oracle Database 23ai with LLM service
 
 By the end of this lab, you will be able to:
 
-- Create a dedicated user account to manage Oracle Private Agent AI Studio.
+- Create a dedicated user account to manage Oracle Private AI Agent Studio.
 - Configure secure connection between Oracle Database 23ai and Oracle Private AI Agent Studio.
 - Install and initialize Oracle Private AI Agent Studio schema and tables in your database.
 - Set up Large Language Model (LLM) credentials for use in the application.

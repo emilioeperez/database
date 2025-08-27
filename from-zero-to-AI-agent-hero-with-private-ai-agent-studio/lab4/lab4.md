@@ -4,7 +4,7 @@
 
 In this lab session, you will learn how to add your own enterprise data sources, including structured data sources, web sources and REST APIs, to Oracle Private AI Agent Studio.
 
-**Estimated time:** 10 minutes.
+**Estimated time:** 15 minutes.
 
 ### Objectives
 
@@ -30,9 +30,9 @@ This feature enables the integration with enterprise databases like Oracle Datab
 
     ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Data Sources option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel.png)
 
-    ![Data Sources screen in Oracle Private AI Agent Studio showing a list of data sources with columns for name, connection, status, added by, last sync, created date, and actions. The status indicates 'ingestion deactivated' for the listed data source. An 'Add Data Source' button is highlighted in the top right corner.](images/data_sources.png)
-
 2. Click the **Add Data Source** button. A setup form will be displayed, allowing you to add Web Sources, Databases or REST APIs. For this task, select Database.
+
+    ![Data Sources screen in Oracle Private AI Agent Studio showing a list of data sources with columns for name, connection, status, added by, last sync, created date, and actions. The status indicates 'ingestion deactivated' for the listed data source. An 'Add Data Source' button is highlighted in the top right corner.](images/data_sources.png)
 
     ![Data Source configuration screen in Oracle Private AI Agent Studio. The screen features a dropdown menu with 'Database' selected. The form includes fields for source name, description, host, port, service name, username and password. At the bottom of the form are 'Test connection', 'Cancel' and 'Add Database Source' buttons.](images/datasource_add_database.png)
 
@@ -82,9 +82,9 @@ Add a file as a data source by assigning a name and description, then simply dra
 
 ## Task 5: Manage your custom data sources
 
-![Data Sources screen showing a collection of web sources in a table with columns for name, connection, status, added by, last sync, created date, and actions. The table lists sources for Oracle Private AI Agent Studio Documentation, Wikipedia, and Oracle website, with statuses indicating ingestion deactivated, ingested, and crawling.](images/datasource_collection.png)
-
 Oracle Private AI Agent Studio allows you to edit or delete previously added data sources at any time, allowing you to effectively manage the information accessible to your agents.
+
+![Data Sources screen showing a collection of web sources in a table with columns for name, connection, status, added by, last sync, created date, and actions. The table lists sources for Oracle Private AI Agent Studio Documentation, Wikipedia, and Oracle website, with statuses indicating ingestion deactivated, ingested, and crawling.](images/datasource_collection.png)
 
 ## Summary
 
