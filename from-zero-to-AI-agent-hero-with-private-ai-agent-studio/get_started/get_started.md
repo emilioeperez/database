@@ -28,7 +28,7 @@ The installation steps may vary depending on your system and environment. We pro
 >
 > Run the installation as a non-root user. Podman must be set up and used in rootless mode for Oracle Private AI Agent Studio installations. Do not perform the installation or run deployment steps as the root user. Please use an OL8 VM for the installation.
 
-Before you start the installation, ensure you select a mount point with enough available space. At least 60 GB is recommended. Anywhere in this document where `<mount_point>` appears, replace it with your chosen mount point that has enough space. Make sure that it is not an NFS mount.
+Before you start the installation, ensure you select a mount point with at least 60 GB of available space. Anywhere in this document where `<mount_point>` appears, replace it with your chosen mount point that meets this requirement. Make sure it is not an NFS mount. Avoid using directories under /home as the mount point, directories under /scratch are recommended.
 
 ### Install Podman
 
