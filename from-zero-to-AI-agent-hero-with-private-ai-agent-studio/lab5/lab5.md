@@ -27,13 +27,13 @@ In this task you will create a new blank Knowledge Agent.
 
 1. Open Oracle Private AI Agent Studio and log in. In the sidebar, click the **Knowledge Agent** section.
 
-    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Knowledge Agent option under the Pre-built Agents section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel.png)
+    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Knowledge Agent option under the Pre-built Agents section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/get_started_kagent.png)
 
-    ![Knowledge Agents screen displaying a search bar and a card for the Oracle Private AI Agent Studio Knowledge Assistant, which is described as a knowledge base consisting of documentation for Oracle Private AI Agent Studio. A button for creating a blank knowledge agent from scratch appears at the bottom.](images/knowledge_agent.png)
+    ![Knowledge Agents screen displaying a search bar, a card to start from scratch and create a blank knowledge agent from scratch, and a card for the Oracle Private AI Agent Studio Knowledge Assistant, which is described as a knowledge base consisting of documentation for Oracle Private AI Agent Studio.](images/knowledge_agent.png)
 
-2. At the bottom of the screen click **Blank Knowledge Agent**.
+2. Click **Blank Knowledge Agent**.
 
-    You will be prompted to choose a Web source data source. You can select the one created on Lab 4 or create a new one. This data source will be knowledge base for this agent. Click **Next** to continue.
+    You will be prompted to select a data source. You can either choose to add a Web Source or a File System. For this tutorial we will use the Web Source one created on Lab 4. This data source will be knowledge base for this agent. Click **Next** to continue.
 
     ![Create Knowledge Agent screen showing step 1 of 3, with options to select data sources for the agent to learn from. The Web Sources table lists available sources by name, endpoint, and status, and includes a button to add a new web source. 'Next' and 'Cancel' buttons appear at the bottom of the screen.](images/kbase_config.png)
 

@@ -28,7 +28,7 @@ This feature enables the integration with enterprise databases like Oracle Datab
 
 1. Open Oracle Private AI Agent Studio and log in. In the sidebar, click the **Data Sources** section.
 
-    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Data Sources option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel.png)
+    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Data Sources option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/get_started_datasources.png)
 
 2. Click the **Add Data Source** button. A setup form will be displayed, allowing you to add Web Sources, Databases or REST APIs. For this task, select Database.
 

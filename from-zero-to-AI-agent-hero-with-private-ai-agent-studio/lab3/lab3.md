@@ -25,9 +25,9 @@ By the end of this lab, you will be able to:
 
 ## Task 1: Register SSO credentials on Oracle Private AI Agent Studio
 
-Open Oracle Private AI Agent Studio and log in. In the sidebar, click the **SSO** section.
+Open Oracle Private AI Agent Studio and log in. In the sidebar, click the **SSO settings** section.
 
-![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The SSO option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel_sso.png)
+![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The SSO option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/get_started_sso.png)
 
 ![SSO Settings screen in Oracle Private AI Agent Studio showing fields to configure OAuth Provider for Single Sign-On. The fields include provider, connection name, client id, client secret, SSO API base URL, access token URL, authorize URL, user URL, server metadata URL, log out URL, and a redirect URL. The 'Add Provider' button is displayed at the bottom right of the form.](images/sso_page.png)
 
@@ -48,7 +48,7 @@ Click **Add Provider**. A success message will be displayed. You can confirm the
 
 In the sidebar, click the **User Management** section.
 
-![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Users option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel_users.png)
+![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Users option under the Settings section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/get_started_users.png)
 
 This page provides a centralized dashboard for managing users in Oracle Private AI Agent Studio.
 

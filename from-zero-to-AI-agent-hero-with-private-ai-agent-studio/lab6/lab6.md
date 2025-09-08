@@ -30,11 +30,11 @@ In this task, you will create a custom Data Analysis Agent to work directly with
 
 1. Open Oracle Private AI Studio and log in. In the sidebar, click the **Data Analysis Agent** section.
 
-    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Data Analysis Agent option under the Pre-built Agents section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/left_panel.png)
+    ![Main dashboard of Oracle Private AI Agent Studio with the left navigation panel expanded. The Data Analysis Agent option under the Pre-built Agents section is highlighted, and the Get Started page is displayed with pre-built agent options and a quick start guide on the right.](images/get_started_data_analysis.png)
 
-    ![Data Analysis Agents screen displaying a search bar and a message indicating that no agents are available yet. A button for creating a new agent and a blank data analysis agent from scratch are displayed at the bottom.](images/data_analysis.png)
+    ![Data Analysis Agents screen displaying a search bar and a card for creating a blank data analysis agent from scratch.](images/data_analysis.png)
 
-2. Click the **Create Data Analysis Agent** button. A setup form will appear, allowing you to select the data source for this agent. (Note that, at this time, Data Analysis Agents only support a single table for analysis)
+2. Click the **Blank Data Analysis Agent** button. A setup form will appear, allowing you to select the data source for this agent. (Note that, at this time, Data Analysis Agents only support a single table or view for analysis)
 
     ![Create Data Analysis Agent screen showing step 1 of 3, allowing selection of database sources. Users can select a database and table from dropdown menus, add a new database source, and proceed to the next step or cancel. A note indicates only a single table is supported. 'Next' and 'Cancel' buttons appear at the bottom of the screen.](images/data_analysis_data_source.png)
 
