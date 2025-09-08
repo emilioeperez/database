@@ -165,7 +165,7 @@ To begin using your instance of Oracle Private AI Agent Studio, navigate to `htt
 
 ## Summary
 
-This concludes this module. The installation has been completed. The next modules will explore each feature of Oracle Private AI Agent Studio in more detail. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
+This concludes this module. The installation has been completed. The next modules will explore each feature of Oracle Private AI Agent Studio in more detail. Continue with them so you don't miss out on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

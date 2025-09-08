@@ -82,7 +82,7 @@ You can ask your own questions about the dataset with natural language, and the 
 
 ## Summary
 
-This concludes the current module. You now know how to create Data Analysis Agents with your own structured data to obtain valuable insights in an air-gapped environment. The next module will further explore other features of Oracle Private AI Agent Studio. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
+This concludes the current module. You now know how to create Data Analysis Agents with your own structured data to obtain valuable insights in an air-gapped environment. The next module will further explore other features of Oracle Private AI Agent Studio. Continue with them so you don't miss out on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

@@ -68,7 +68,7 @@ With the configuration complete, you will be prompted to log in with the email a
 
 ## Summary
 
-This concludes the current module. Your configuration is now complete. The following modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
+This concludes the current module. Your configuration is now complete. The following modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss out on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

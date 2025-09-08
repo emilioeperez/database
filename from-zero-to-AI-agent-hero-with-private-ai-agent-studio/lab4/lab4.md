@@ -88,7 +88,7 @@ Oracle Private AI Agent Studio allows you to edit or delete previously added dat
 
 ## Summary
 
-This concludes the current module. You are now able to add your own data sources to enhance your custom agents and workflows in an air-gapped, private environment. The next modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
+This concludes the current module. You are now able to add your own data sources to enhance your custom agents and workflows in an air-gapped, private environment. The next modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss out on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

@@ -40,7 +40,7 @@ sudo yum install podman
 </copy>
 ```
 
-### Disable SELinux
+### Set SELinux to permissive
 
 SELinux on OCI VMs can prevent Podman from loading some of the necessary libraries. Set SELinux to permissive mode by running the following command:
 
@@ -99,7 +99,7 @@ sudo setenforce permissive
 
 ## Task 2: Get access to Oracle Container Registry
 
-Oracle Container Registry is an online repository managed by Oracle that allows to store, share, and manage container images (such as Docker or Podman images). This platform is useful for the installation of the components Oracle AI Agent Studio.
+Oracle Container Registry is an online repository managed by Oracle that allows to store, share, and manage container images (such as Docker or Podman images). This platform is useful for the installation of the components Oracle Private AI Agent Studio.
 
 1. Go to the [Oracle Container Registry website](https://container-registry.oracle.com/).
 
@@ -115,7 +115,7 @@ Oracle Container Registry is an online repository managed by Oracle that allows 
 
 ## Task 3: Install podman-compose
 
-Podman compose is a Podman tool that allows to run multi-container applications, such as Oracle AI Agent Studio.
+Podman compose is a Podman tool that allows to run multi-container applications, such as Oracle Private AI Agent Studio.
 
 1. Update python to 3.12
 
@@ -173,6 +173,10 @@ By default, most Oracle Linux distributions restrict incoming network traffic fo
     sudo firewall-cmd --reload
     </copy>
     ```
+
+## Summary
+
+This concludes the environment setup required to continue with the following modules. The next modules will explore the installation and features of Oracle Private AI Agent Studio in more detail. Continue with them so you don't miss out on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 

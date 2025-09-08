@@ -62,7 +62,7 @@ This page ensures user management is straightforward, secure, and tailored to yo
 
 ## Summary
 
-This concludes the current module. You now know how to configure a SSO service in Oracle Private AI Agent Studio, and interpret the information provided on the user management dashboard. The next modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss on new discoveries and learning opportunities. You may now **proceed to the next lab**.
+This concludes the current module. You now know how to configure a SSO service in Oracle Private AI Agent Studio, and interpret the information provided on the user management dashboard. The next modules will explore each feature of Oracle Private AI Agent Studio in greater detail. Continue with them so you don't miss out on new discoveries and learning opportunities. You may now **proceed to the next lab**.
 
 ## Acknowledgements
 
